@@ -8,3 +8,4 @@ Api server: Build with Flask (https://pypi.org/project/Flask/)
 Check service port: sudo netstat -nlp | grep 8080
 https://stackoverflow.com/questions/34457981/trying-to-run-flask-app-gives-address-already-in-use 
 
+example for GPIOS: https://randomnerdtutorials.com/raspberry-pi-web-server-using-flask-to-control-gpios/
