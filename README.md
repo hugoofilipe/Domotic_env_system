@@ -2,8 +2,11 @@
 Home Automation System - Smart home control
 
 Languages: Python
+
 Style standart code: pep8 (https://www.python.org/dev/peps/pep-0008/)
+
 Api server: Build with Flask (https://pypi.org/project/Flask/)
+
 packages contribution: pypi (https://pypi.org/)
 
 ---------
