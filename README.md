@@ -9,6 +9,8 @@ Api server: Build with Flask (https://pypi.org/project/Flask/)
 
 packages contribution: pypi (https://pypi.org/)
 
+To creates and manages a virtualenv: pipenv (https://github.com/pypa/pipenv)
+
 ---------
 Check service port: sudo netstat -nlp | grep 8080
 https://stackoverflow.com/questions/34457981/trying-to-run-flask-app-gives-address-already-in-use 
