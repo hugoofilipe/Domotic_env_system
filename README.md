@@ -20,3 +20,21 @@ example for GPIOS: https://randomnerdtutorials.com/raspberry-pi-web-server-using
 
 First time setup
 ----------------
+
+Create and start environment on linux:
+
+On windows:
+
+Start web api on linux
+. env FLASK_APP=teste.py flask run --host=0.0.0.0 --port=80
+
+or:
+
+$export FLASK_APP=teste.py 
+$flask run --host=0.0.0.0 --port=80
+
+on Windows (pycharm):
+
+$set FLASK_APP=teste.py
+$flask run --host=0.0.0.0 --port=80
+
