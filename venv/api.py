@@ -1,11 +1,12 @@
 from flask import Flask, render_template, redirect, url_for, request
-from classes import Website
+from classes import *
 
 app = Flask(__name__)
 
 Website("Bestweather", 1123, "www.bestweather.pt")
 Website("Vetcaxias", 25463, "www.vetcaxias.pt")
 Website("Huna", 2797, "www.huna.pt")
+
 
 @app.route("/")
 def homepage():
@@ -19,13 +20,13 @@ def hello():
 
 @app.route("/websites", methods=["GET", "POST"])
 def websites():
-    print("refresh page")
     if request.method == "POST":
         try:
             name = request.form['input_name']
             id = request.form['input_id']
             url = request.form['input_url']
-            website = Website(name, id, url)
+            Website(name, id, url)
+            return redirect(url_for("websites"))
         except ValueError:
             print("Cannot created")
     return render_template("websites.html", websites= Website.websites)
@@ -33,11 +34,13 @@ def websites():
 
 @app.route("/websites/remove", methods=["GET", "POST"])
 def remove():
-    print("try to remove")
     if request.method == "POST":
-        obj = request.form['obj']
-        print(dir(obj))
-        Website.websites.remove(obj)
+        obj_name = request.form['obj']
+        removed = remove_object(obj_name)
+        if removed:
+            print('website {} removed',format(obj_name))
+        else:
+            print('Not removed')
     return render_template("websites.html", websites= Website.websites)
 
 

@@ -51,3 +51,16 @@ class Website:
             print('Success!')
         elif response.status_code == 404:
             print('Not Found.')
+
+
+def remove_object(name):
+    """
+
+    :param name:
+    :return:
+    """
+    for website in Website.websites:
+        if website.name == name:
+            Website.websites.remove(website)
+            return True
+    return False
