@@ -9,35 +9,36 @@ Api server: Build with Flask (https://pypi.org/project/Flask/)
 
 packages contribution: pypi (https://pypi.org/)
 
-To creates and manages a virtualenv: pipenv (https://github.com/pypa/pipenv)
+To creates and manages a virtual enviroment: **venv** (https://docs.python.org/3/library/venv.html) or **pipenv** (https://github.com/pypa/pipenv)
 
 ---------
 Check service port: sudo netstat -nlp | grep 8080
 https://stackoverflow.com/questions/34457981/trying-to-run-flask-app-gives-address-already-in-use 
 
-example for GPIOS: https://randomnerdtutorials.com/raspberry-pi-web-server-using-flask-to-control-gpios/
-
+frontdend style: Bootstrap 3
 
 First time setup
 ----------------
+**start Enviroment**
+- On windowns we need to start an enviromnent for run flask:
+'''
+ . venv/Scripts/activate
+'''
+ps: to exit just write *deactivate*
+- Create and start environment on linux:
+(need to had information about that
 
-Create and start environment on linux:
-
-On windows:
-
-Start web api on linux
-
+***Start web api on linux***
+'''
 . env FLASK_APP=teste.py flask run --host=0.0.0.0 --port=80
-
+'''
 or:
-
+'''
 $export FLASK_APP=teste.py 
-
 $flask run --host=0.0.0.0 --port=80
-
+'''
 on Windows (pycharm):
-
+'''
 $set FLASK_APP=teste.py
-
 $flask run --host=0.0.0.0 --port=80
-
+'''
