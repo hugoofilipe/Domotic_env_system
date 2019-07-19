@@ -39,6 +39,6 @@ $flask run --host=0.0.0.0 --port=80
 ```
 on Windows (pycharm):
 ```
-$set FLASK_APP=teste.py
+$set FLASK_APP=venv/api.py
 $flask run --host=0.0.0.0 --port=80
 ```
