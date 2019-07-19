@@ -19,7 +19,7 @@ frontdend style: Bootstrap 3
 
 First time setup
 ----------------
-**start Enviroment**
+**Start Enviroment**
 - On windowns we need to start an enviromnent for run flask:
 ```
  . venv/Scripts/activate
@@ -28,7 +28,7 @@ ps: to exit just write *deactivate*
 - Create and start environment on linux:
 (need to had information about that
 
-***Start web api on linux***
+***Start webapi on linux***
 ```
 . env FLASK_APP=teste.py flask run --host=0.0.0.0 --port=80
 ```
