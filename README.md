@@ -5,7 +5,11 @@ Languages: Python
 
 Style standart code: pep8 (https://www.python.org/dev/peps/pep-0008/)
 
-Api server: Build with Flask (https://pypi.org/project/Flask/)
+Api server: Build with **Flask** (https://pypi.org/project/Flask/)
+
+Database: MySQL
+
+SQLAlchemy: is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL. we used to deal with MySQL database
 
 packages contribution: pypi (https://pypi.org/)
 
