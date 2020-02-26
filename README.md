@@ -3,6 +3,11 @@ Home Automation System - Smart home control
 
 Languages: Python
 
+Description
+
+Goals:
+ - The idea is to deploy thsi application in diferent enviroments (development and production enviroment)
+
 Style standart code: pep8 (https://www.python.org/dev/peps/pep-0008/)
 
 Api server: Build with **Flask** (https://pypi.org/project/Flask/)
