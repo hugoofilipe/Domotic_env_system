@@ -1,5 +1,5 @@
 # Smart home control - Home Automation System 
-Tag tech: Python
+Tag tech: Python, postgres, 
 
 Description:
  - 
@@ -34,14 +34,14 @@ Road map:
 
 Docs:
 -
- - Style standart code: pep8 (https://www.python.org/dev/peps/pep-0008/)
- - Api server: Build with **Flask** (https://pypi.org/project/Flask/)
- - Packages contribution: pypi (https://pypi.org/)
- - To Creates and Manages a virtual ENVIROMENT: **venv** (https://docs.python.org/3/library/venv.html) or **pipenv** (https://github.com/pypa/pipenv)
+ - **Style standart** code: pep8 (https://www.python.org/dev/peps/pep-0008/)
+ - **Api server**: Build with **Flask** (https://pypi.org/project/Flask/)
+ - **Packages contribution**: pypi (https://pypi.org/)
+ - **To Creates and Manages a virtual ENVIRONMENT**: **venv** (https://docs.python.org/3/library/venv.html) or **pipenv** (https://github.com/pypa/pipenv)
 
 Troubleshooting:
 -
- - Check service port: sudo netstat -nlp | grep 8080 ->https://stackoverflow.com/questions/34457981/trying-to-run-flask-app-gives-address-already-in-use 
+ - **Check service port**: sudo netstat -nlp | grep 8080 ->https://stackoverflow.com/questions/34457981/trying-to-run-flask-app-gives-address-already-in-use 
 
 ----------------
 First time setup
