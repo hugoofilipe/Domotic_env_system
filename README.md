@@ -1,4 +1,4 @@
-# Smart home control - Home Automation System 
+# Smart Home Control - Home automation system 
 Tag tech: Python, postgres, 
 
 Description:
