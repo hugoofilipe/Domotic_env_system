@@ -1,12 +1,32 @@
 # Domotic_env_system
 Home Automation System - Smart home control
 
-Languages: Python
+Tag tech: Python
 
-Description
+Description:
 
-Goals:
+Goals and objectives:
  - The idea is to deploy thsi application in diferent enviroments (development and production enviroment)
+
+Requirements:
+ - Instalar o HA - Home assistance
+ - Instalar git
+ - instalar docker
+ - Criar cron job
+ - Instalar base de dados
+ - Criar 2 ambientes e instalar as aplicaçes (Container DEV e container PROD-RaspPi)
+ - Testar com dispositivos em produção (RaspPi)
+ - Instalar o openhab
+ - Comprar:
+     -um display
+     -sensor para aquecedores
+ - instalar jenkins (para fazer build e deploy em ambiente de produção;
+ - instalar ansible (para conter todas as configurações;
+ - instalar nsq
+ - criar workers
+ - criar event brockers
+ - lançar Api orientada ao estado do serviço 
+ - integraçao com telegram
 
 Style standart code: pep8 (https://www.python.org/dev/peps/pep-0008/)
 
