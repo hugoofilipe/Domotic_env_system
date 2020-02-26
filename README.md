@@ -1,19 +1,21 @@
-# Domotic_env_system
-Home Automation System - Smart home control
-
+# Smart home control - Home Automation System 
 Tag tech: Python
 
 Description:
-
+ - 
+ 
 Goals and objectives:
- - The idea is to deploy thsi application in diferent enviroments (development and production enviroment)
+ - This application was born to live inside a specific enviroment, containarized by docker. The idea is to deploy this application in diferent enviroments (development and production enviroment). It will speak with a database postgres and REDIS, who will lives in same server, but outside of his enviroment.  
 
 Requirements:
+ - 
+
+Road map:
  - Instalar o HA - Home assistance
  - Instalar git
  - instalar docker
  - Criar cron job
- - Instalar base de dados
+ - Instalar base de dados: Database postgres
  - Criar 2 ambientes e instalar as aplicaçes (Container DEV e container PROD-RaspPi)
  - Testar com dispositivos em produção (RaspPi)
  - Instalar o openhab
@@ -28,11 +30,9 @@ Requirements:
  - lançar Api orientada ao estado do serviço 
  - integraçao com telegram
 
-Style standart code: pep8 (https://www.python.org/dev/peps/pep-0008/)
-
-Api server: Build with **Flask** (https://pypi.org/project/Flask/)
-
-Database: MySQL
+Docs:
+ - Style standart code: pep8 (https://www.python.org/dev/peps/pep-0008/)
+ - Api server: Build with **Flask** (https://pypi.org/project/Flask/)
 
 SQLAlchemy: is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL. we used to deal with MySQL database
 
